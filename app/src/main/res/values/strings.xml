@@ -1,0 +1,36 @@
+<resources>
+    <!--title for our App-->
+    <string name="app_name">Bintu</string>
+
+    <!-- Category name for our science part-->
+    <string name="category_science">Science</string>
+
+    <!-- Title for the math category -->
+    <string name="category_mathematics">Mathematics</string>
+
+    <!--Title for the English Category -->
+    <string name="category_english">English</string>
+
+    <!--Title for the App instruction -->
+    <string name="instruction">Instruction</string>
+
+    <!--Title for the hisgh score -->
+    <string name="category_highScore">High Score</string>
+
+    <!-- ################################################################
+    #####################################################################
+    #####################################################################-->
+    <string name="sciQu1">This picture shows an object in space that has an icy core with a tail of gas and dust that extends millions of miles. What is this?</string>
+    <string name="sciQu2">What does a light-year measure?</string>
+    <string name="sciQu3">Which kind of waves are used to make and receive cellphone calls?</string>
+    <string name="sciQu4">This picture shows three layers of the Earth. Which layer is the hottest?</string>
+    <string name="sciQu5">Which of these is the main way that ocean tides are created?</string>
+    <string name="sciQu6">Denver, Colorado, is at a higher altitude than Los Angeles, California. Which of these statements is correct?</string>
+    <string name="sciQu7">The loudness of a sound is determined by what property of a sound wave?</string>
+    <string name="sciQu8">Which of the following statements best describes the data in the graph below?</string>
+    <string name="sciQu9">Which of these elements is needed to make nuclear energy and nuclear weapons?</string>
+    <string name="sciQ10">Which of these people developed the polio vaccine?</string>
+    <string name="sciQu11">Which of these terms is defined as the study of how the positions of stars and planets can influence human behavior?</string>
+    <string name="sciQu12">Which of these pictures best illustrates what happens when light passes through a magnifying glass?</string>
+
+</resources>

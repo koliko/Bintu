@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/app_background">
+
+
+        <TextView
+            android:id="@+id/science"
+            style="@style/CategoryStyle"
+            android:background="@color/color_science"
+            android:text="SCIENCE QUIZ" />
+
+        <TextView
+            android:id="@+id/mathematics"
+            style="@style/CategoryStyle"
+            android:background="@color/color_mathematics"
+            android:text="MATHEMATICS QUIZ" />
+
+        <TextView
+            android:id="@+id/english"
+            style="@style/CategoryStyle"
+            android:background="@color/color_english"
+            android:text="ENGLISH QUIZ" />
+
+        <TextView
+            android:id="@+id/instructin"
+            style="@style/CategoryStyle"
+            android:background="@color/color_instruction"
+            android:text="INSTRUCTION" />
+        <TextView
+            android:id="@+id/high_score"
+            style="@style/CategoryStyle"
+            android:background="@color/color_highScore"
+            android:text="HIGH SCORE"/>
+</LinearLayout>
+    </ScrollView>
+
+

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/lineViewsMe"
+                android:text="@string/sciQu1"
+                android:id="@+id/sci_qus1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sciencequiz_answer1" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup1">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="A star"
+                            android:id="@+id/sci_qus1_ans1"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="An astroid"
+                            android:id="@+id/sci_qus1_ans2"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="A comet"
+                            android:id="@+id/sci_qus1_ans3"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="A moon"
+                            android:id="@+id/sci_qus1_ans4"/>
+                </RadioGroup>
+            <TextView
+                style="@style/lineViewsMe"
+                android:text="@string/sciQu2"
+                android:id="@+id/sci_qus2"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup2">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brightness"
+                    android:id="@+id/sci_qus2_ans1"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:id="@+id/sci_qus2_ans2"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distance"
+                    android:id="@+id/sci_qus2_ans3"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weight"
+                    android:id="@+id/sci_qus4_ans4"/>
+            </RadioGroup>
+
+            <TextView
+                style="@style/lineViewsMe"
+                android:text="@string/sciQu3"
+                android:id="@+id/sci_qus3"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup3">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Radio Wave"
+                    android:id="@+id/sci_qus3_ans1"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visible Light Wave"
+                    android:id="@+id/sci_qus3_ans2"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sound Wave"
+                    android:id="@+id/sci_qus3_ans3a"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gravity Wave"
+                    android:id="@+id/sci_qus3_ans4"/>
+            </RadioGroup>
+
+            <TextView
+                style="@style/lineViewsMe"
+                android:text="@string/sciQu4"
+                android:id="@+id/sci_qus4"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sciencequiz_answer3" />
+
+           <RadioGroup
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/radioGroup4">
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="The outer layer, called the earth Core"
+                   android:id="@+id/sci_qus4_ans1"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="The middle layer, called the Earth Mantel"
+                   android:id="@+id/sci_qus4_ans2"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="The inner layer, called the Earth Core"
+                   android:id="@+id/sci_qus4_ans3"/>
+           </RadioGroup>
+
+            <TextView
+                style="@style/lineViewsMe"
+                android:text="@string/sciQu5"
+                android:id="@+id/sci_qus5"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup5">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gravitational pull of the moon"
+                    android:id="@+id/sci_qus5_ans1"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The gravity of the earth"
+                    android:id="@+id/sci_qus5_ans2"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cosmic in orbit"
+                    android:id="@+id/sci_qus5_ans3"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="None of the above"
+                    android:id="@+id/sci_qus5_ans4"/>
+            </RadioGroup>
+            <TextView
+                style="@style/lineViewsMe"
+                android:text="@string/sciQu7"
+                android:id="@+id/sci_qus6"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup6">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Frequency"
+                    android:id="@+id/sci_qus6_ans1"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wavelength"
+                    android:id="@+id/sci_qus6_ans2"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Velocity or Rate of Change "
+                    android:id="@+id/sci_qus6_ans3"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amplitude or Height"
+                    android:id="@+id/sci_qus6_ans4"/>
+            </RadioGroup>
+
+            <TextView
+                style="@style/lineViewsMe"
+                android:text="@string/sciQu9"
+                android:id="@+id/sci_qus7"/>
+           <RadioGroup
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/radioGroup7">
+               <RadioButton
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Sodium Chloride"
+                   android:id="@+id/sci_qus7_ans1"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Uraium"
+                   android:id="@+id/sci_qus7_ans2"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Nitrogen"
+                   android:id="@+id/sci_qus7_ans3"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Carbon dioxide"
+                   android:id="@+id/sci_qus7_ans4"/>
+           </RadioGroup>
+
+            <TextView
+                style="@style/lineViewsMe"
+                android:text="@string/sciQ10"
+                android:id="@+id/sci_qus8"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sciencquiz_answer9" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup8">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Maria Curie"
+                    android:id="@+id/sci_qus8_ans1"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Isaac Newton"
+                    android:id="@+id/sci_qus8_ans2"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Albert Einstein"
+                    android:id="@+id/sci_qus8_ans3"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jonas Salk"
+                    android:id="@+id/sci_qus8_ans4"/>
+            </RadioGroup>
+            <TextView
+                style="@style/lineViewsMe"
+                android:text="@string/sciQu11"
+                android:id="@+id/sci_qus9"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup9">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Astrology"
+                    android:id="@+id/sci_qus9_ans1"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alchemy"
+                    android:id="@+id/sci_qus9_ans2"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Astronomy"
+                    android:id="@+id/sci_qus9_ans3"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Meterology"
+                    android:id="@+id/sci_qus9_ans4"/>
+            </RadioGroup>
+
+            <TextView
+                style="@style/lineViewsMe"
+                android:text="@string/sciQu12"
+                android:id="@+id/sci_qus10"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sciencequiz_answer10" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup10">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:id="@+id/sci_qus10_ans1"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:id="@+id/sci_qus10_ans2"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:id="@+id/sci_qus10_ans3"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:id="@+id/sci_qus10_ans4" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submitAnswer"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
+
+    </ScrollView>

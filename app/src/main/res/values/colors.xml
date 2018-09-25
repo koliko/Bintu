@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app(shown in the app bar)-->
+    <color name="color_primary">#c65b39</color>
+
+    <!-- primary dark color of the app (show in status bar)-->
+    <color name="color_primaryDark">#8b4028</color>
+
+    <!--Primary background color of the app -->
+    <color name="app_background">#dae8af</color>
+
+    <!--color for the science quiz -->
+    <color name="color_science">#a4c639</color>
+
+    <!--color for the math quiz -->
+    <color name="color_mathematics">#39a4c6</color>
+
+    <!--color for the english quiz -->
+    <color name="color_english">#5b39c6</color>
+
+    <!-- color for the instruction-->
+    <color name="color_instruction">#FF4081</color>
+
+    <!--color for the high score -->
+    <color name="color_highScore">#262e0d</color>
+
+</resources>

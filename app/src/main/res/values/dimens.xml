@@ -1,0 +1,7 @@
+<resources>
+    <!--default height for list items -->
+    <dimen name="list_height">88dp</dimen>
+    <!--default screen margin per the android design -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>
